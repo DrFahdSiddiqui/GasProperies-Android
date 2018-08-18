@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Gas Properties</string>
+    <string name="action_settings">Settings</string>
+
+
+
+        <string name="about_app">
+    <![CDATA[
+    <html>
+    <head></head>
+    <body style="text-align:left;color:#c8ffff;background-color:#002d2d;">
+    <font size="4">
+
+
+
+
+
+<p><span style="text-decoration: underline;"><strong>About This App<br /></strong></span>This app computes the fluid properties of natural gas&nbsp;using various correlations available in the petroleum engineering literature.&nbsp;</p>
+<p>This app&nbsp;requires the gas specific&nbsp;gravity (&gamma;), mol% of H2S and CO2. The calculations are made at the temperature provided and the range of pressure specified.&nbsp;Optionally field or lab measured test point data can be entered to compare on the graphs of PVT properties in the output screen.</p>
+<p>The user can select the correlations to be used for each parameter by clicking the CORRELATIONS button or selecting SETTINGS from the MENU.</p>
+<p>This app will compute the real gas&nbsp;Z-factor,&nbsp;gas, formation volume factor, density, viscosity, compressibility and pseudo-pressure for&nbsp;the pressure range and temperature specified in the input screen.&nbsp;The resulting properties are plotted against pressure for visualization. The test point data is also plotted (if provided) for comparison. The graphs are interactive i.e. tapping the lines pops out the values of that point.</p>
+<p>NOTE: In order to compute the correct real gas pseudo pressure, ensure that the pressure range starts from 14.7 psia.</p>
+<p>Finally a report of the calculation is also available in copyable tab delimited text form to paste into a mobile word processor. Clicking the "EMAIL REPORT" button launches the default Android mail app with the report in the body of the email.</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;"><strong>About Fahd Siddiqui</strong></span><br />Fahd Siddiqui is an engineer and an app developer; designing engineering apps for quick calculations during meetings and on the field.</p>
+<p><a href="http://www.fahdsiddiqui.com">www.fahdsiddiqui.com</a></p>
+<p><br /><em>The use of this app is for educational purposes only and should not be relied upon for legal contracts. This app</em><em>&nbsp;is protected under the relevant copyright laws.</em></p>
+
+
+
+
+
+    </font>
+    </body>
+    </html>
+    ]]>
+    </string>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="petrosimple.gasproperties">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="petrosimple.gasproperties.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="petrosimple.gasproperties.OutputActivity" android:theme="@style/Theme.AppCompat"/>
+        <activity android:name="petrosimple.gasproperties.AboutActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name="petrosimple.gasproperties.TextActivity" android:theme="@style/Theme.AppCompat"/>
+        <activity android:name="petrosimple.gasproperties.SettingsActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+
+    </application>
+
+</manifest>
